@@ -42,25 +42,22 @@ In both scenarios:
 
 ## 📂 Project Structure
 ExamScorePrediction/
-│
-├── app.py                             # FastAPI application entry point
-├── requirements.txt                   # Project dependencies
-├── model_tests.py                     # Unit tests for model validation
-│
-├── templates/
-│   └── index.html                     # Jinja2 template for web interface
-│
-├── ExamScorePrediction.ipynb          # Notebook for training & evaluation
-├── ExamScorePrediction_SavingModel.ipynb  # Notebook for saving/exporting model
-│
-├── ExamScorePrediction.pkl            # Serialized trained model (Pickle file)
-├── ExamScorePrediction-testdatascaled.csv # Scaled test dataset
-├── Exam_Score_Prediction.csv          # Raw dataset
+- ExamScorePrediction.ipynb          # Notebook for training & evaluation
+- ExamScorePrediction_SavingModel.ipynb  # Notebook for saving/exporting model
+- ExamScorePrediction.pkl            # Serialized trained model (Pickle file)
+- ExamScorePrediction-testdatascaled.csv # Scaled test dataset
+- Exam_Score_Prediction.csv          # Raw dataset
+- app.py                             # FastAPI application entry point
+- requirements.txt                   # Project dependencies
+- templates/
+-   └── index.html                     # Jinja2 template for web interface
+- model_tests.py                     # Unit tests for model validation
 
-
+  
+---
 
 ## ▶️ How to Run the Project
--1. **Install dependencies**
+-1. Install dependencies
    ```bash
    pip install -r requirements.txt
 
@@ -68,18 +65,18 @@ ExamScorePrediction/
   uvicorn app:app --reload
 
 
-
+---
 ## 📊 Workflow
-1. **Data Preparation**
+-1. Data Preparation
    - Clean dataset (`Exam_Score_Prediction.csv`)
    - Encode categorical variables and scale features
 
-2. **Model Training**
+-2. Model Training
    - Train multiple regression algorithms in Jupyter Notebooks
    - Compare performance across scenarios
 
-3. **Model Saving**
+-3. Model Saving
    - Export trained model as `.pkl` for deployment
 
-4. **Deployment**
+-4. Deployment
    - Use FastAPI (`app.py`) + Jinja2 (`index.html`) for web-based predictions
