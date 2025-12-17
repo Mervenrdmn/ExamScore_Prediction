@@ -45,18 +45,22 @@ In both scenarios:
 ---
 
 ## 📂 Project Structure
-exam-score-prediction/ ├── app.py                                # FastAPI application entry point ├── model_tests.py                        # Scripts for testing regression models ├── requirements.txt                      # Project dependencies ├── templates/ │   └── index.html                        # Frontend template ├── ExamScorePrediction.ipynb             # Main notebook for analysis ├── ExamScorePrediction_SavingModel.ipynb # Notebook for saving trained models ├── ExamScorePrediction.pkl               # Serialized trained model ├── ExamScorePrediction-testdatascaled.csv # Scaled test dataset └── Exam_Score_Prediction.csv             # Original dataset
-
+- ExamScorePrediction.ipynb              # Main notebook for analysis
+- ExamScorePrediction_SavingModel.ipynb  # Notebook for saving trained models
+- ExamScorePrediction.pkl                # Serialized trained model
+- ExamScorePrediction-testdatascaled.csv # Scaled test dataset
+- Exam_Score_Prediction.csv              # Original dataset
+- app.py                                 # FastAPI application entry point
+- model_tests.py                         # Scripts for testing regression models
+- requirements.txt                       # Project dependencies
+- templates
+- └── index.html                         # Frontend template 
 ---
 
 ## 🚀 How to Run
-- 1. Clone the repository:
-   ```bash
-   git clone <repo-link>
-   cd exam-score-prediction
-- 2.Install dependencies:
+- Install dependencies:
 pip install -r requirements.txt
-- 3.Start the application:
+- Start the application:
 uvicorn app:app --reload
 
 📈 Results
