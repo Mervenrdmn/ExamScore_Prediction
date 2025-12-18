@@ -39,7 +39,7 @@ In both scenarios:
 - `uvicorn==0.38.0`  
 
 
-
+---
 ## 📂 Project Structure
 ExamScorePrediction/
 ├── ExamScorePrediction.ipynb              # Notebook for training & evaluation
