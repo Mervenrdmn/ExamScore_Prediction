@@ -42,6 +42,7 @@ In both scenarios:
 ---
 ## 📂 Project Structure
 ExamScorePrediction/
+|
 ├── ExamScorePrediction.ipynb              # Notebook for training & evaluation
 ├── ExamScorePrediction_SavingModel.ipynb  # Notebook for saving/exporting model
 ├── ExamScorePrediction.pkl                # Serialized trained model (Pickle file)
@@ -56,7 +57,7 @@ ExamScorePrediction/
 ---
 
 ## ▶️ How to Run the Project
-1. Install dependencies
+- 1. Install dependencies
    pip install -r requirements.txt
 
 - 2. Start the FastAPI server
@@ -65,16 +66,16 @@ ExamScorePrediction/
 
 ---
 ## 📊 Workflow
--1. Data Preparation
+- 1. Data Preparation
    - Clean dataset (Exam_Score_Prediction.csv)
    - Encode categorical variables and scale features
 
--2. Model Training
+- 2. Model Training
    - Train multiple regression algorithms in Jupyter Notebooks
    - Compare performance across scenarios
 
--3. Model Saving
+- 3. Model Saving
    - Export trained model as .pkl for deployment
 
--4. Deployment
+- 4. Deployment
    - Use FastAPI (app.py) + Jinja2 (index.html) for web-based predictions
