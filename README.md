@@ -42,16 +42,16 @@ In both scenarios:
 
 ## 📂 Project Structure
 ExamScorePrediction/
-├── ExamScorePrediction.ipynb              # Notebook for training & evaluation
-├── ExamScorePrediction_SavingModel.ipynb  # Notebook for saving/exporting model
-├── ExamScorePrediction.pkl                 # Serialized trained model (Pickle file)
-├── ExamScorePrediction-testdatascaled.csv  # Scaled test dataset
-├── Exam_Score_Prediction.csv               # Raw dataset
-├── app.py                                  # FastAPI application entry point
-├── requirements.txt                        # Project dependencies
+├── ExamScorePrediction.ipynb                  # Notebook for training & evaluation
+├── ExamScorePrediction_SavingModel.ipynb      # Notebook for saving/exporting model
+├── ExamScorePrediction.pkl                    # Serialized trained model (Pickle file)
+├── ExamScorePrediction-testdatascaled.csv     # Scaled test dataset
+├── Exam_Score_Prediction.csv                  # Raw dataset
+├── app.py                                     # FastAPI application entry point
+├── requirements.txt                           # Project dependencies
 ├── templates/
-│   └── index.html                          # Jinja2 template for web interface
-├── model_tests.py                          # Unit tests for model validation
+├──   └── index.html                             # Jinja2 template for web interface
+├── Model_tests.py                             # Unit tests for model validation
   
 ---
 
