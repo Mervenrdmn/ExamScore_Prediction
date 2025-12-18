@@ -56,10 +56,10 @@ ExamScorePrediction/
 ---
 
 ## ▶️ How to Run the Project
--1. Install dependencies
+1. Install dependencies
    pip install -r requirements.txt
 
--2. Start the FastAPI server
+- 2. Start the FastAPI server
   uvicorn app:app --reload
 
 
